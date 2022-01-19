@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombre": "Amoladora",
+        "marca": "DeWalt",
+        "precio": 2300,
+        "stock": 30,
+        "img": "producto1.png",
+        "categoria": "Electrica"
+    },
+    {
+        "id": 2,
+        "nombre": "Atornillador",
+        "marca": "Black&Decker",
+        "precio": 3000,
+        "stock": 20,
+        "img": "producto2.png",
+        "categoria": "Electrica"
+
+    },
+    {
+        "id": 3,
+        "nombre": "Taladro",
+        "marca": "Bosch",
+        "precio": 4500,
+        "stock": 25,
+        "img": "producto3.png",
+        "categoria": "Electrica"
+    },
+    {
+        "id": 4,
+        "nombre": "Sierra Circular",
+        "marca": "Bosch",
+        "precio": 5600,
+        "stock": 23,
+        "img": "producto4.png",
+        "categoria": "Electrica"
+    },
+    {
+        "id": 5,
+        "nombre": "Pistola de Calor",
+        "marca": "DeWalt",
+        "precio": 3500,
+        "stock": 10,
+        "img": "producto5.png",
+        "categoria": "Electrica"
+    },
+    {
+        "id": 6,
+        "nombre": "Lijadora Orbital",
+        "marca": "Black&Decker",
+        "precio": 2750,
+        "stock": 10,
+        "img": "producto6.png",
+        "categoria": "Electrica"
+    },
+    {
+        "id": 7,
+        "nombre": "Set Llaves",
+        "marca": "Bosch",
+        "precio": 2750,
+        "stock": 50,
+        "img": "producto7.png",
+        "categoria": "Manual"
+    },
+    {
+        "id": 8,
+        "nombre": "Martillo",
+        "marca": "DeWalt",
+        "precio": 350,
+        "stock": 45,
+        "img": "producto8.png",
+        "categoria": "Manual"
+    },
+    {
+        "id": 9,
+        "nombre": "Set Llaves Allen",
+        "marca": "Bremen",
+        "precio": 1250,
+        "stock": 5,
+        "img": "producto9.png",
+        "categoria": "Manual"
+    },
+    {
+        "id": 10,
+        "nombre": "Destornillador",
+        "marca": "Bremen",
+        "precio": 650,
+        "stock": 17,
+        "img": "producto10.png",
+        "categoria": "Manual"
+    },
+    {
+        "id": 11,
+        "nombre": "Sierra",
+        "marca": "Black&Decker",
+        "precio": 275,
+        "stock": 36,
+        "img": "producto11.png",
+        "categoria": "Manual" 
+    },
+    {
+        "id": 12,
+        "nombre": "Pinza Universal",
+        "marca": "Bremen",
+        "precio": 180,
+        "stock": 15,
+        "img": "producto12.png",
+        "categoria": "Manual"
+    }
+    
+]

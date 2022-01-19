@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200&display=swap");
+* {
+  font-family: 'Bai Jamjuree', sans-serif; }
+
+.logo {
+  width: 200px;
+  height: auto; }
+
+div .boxNav {
+  border-bottom: solid; }
+
+.navbar {
+  background: linear-gradient(90deg, #E97F08, #FCDF2C);
+  font-weight: bold;
+  font-size: large; }
+
+.navbar-brand {
+  width: 20%; }
+
+.container-fluid {
+  padding: 0; }
+
+.col-lg-12 {
+  padding: 0; }
+
+.row {
+  margin: 0; }
+
+.banner1 img {
+  width: 100%; }
+
+.rowBannerMarcas {
+  background-color: black;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+ }
+
+.rowBannerMarcas .img-Fluid {
+  width: 70%; }
+
+.rowBannerMarcas a {
+  text-align: center; }
+
+#bremen {
+  padding-top: 5px; }
+
+.box {
+  margin: 60px 0px 10px 0px;
+  width: 100%;
+  height: auto; }
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; }
+
+
+.rowTitulos {
+  background-color: black;
+  border-radius: 3px;
+  height: 50px;
+  margin: 50px 10px 50px; }
+
+h1 {
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #E97F08;
+  padding-top: 10px; }
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #E97F08;
+  padding-top: 14px;
+  padding-left: 10px; }
+
+.dropdown {
+  margin-left: 10px;
+}
+
+/*NOSOTROS*/
+.boxNosotros img {
+  border-radius: 10px;
+  border: solid #E97F08; }
+
+.rowNosotros {
+  background-color: black;
+  margin: 30px;
+  border-radius: 10px; }
+
+.nosotrosP {
+  color: #E97F08;
+  font-weight: bolder;
+  padding: 15px; }
+
+  /* CONTACTO */
+
+  .infoContacto h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke: 0.5px #E97F08; }
+  
+  .infoContacto p {
+    text-align: center;
+    color: #E97F08; }
+
+    /* COMO LLEGAR */
+.rowUbicacion {
+  background-color: #E97F08;
+  margin: 30px;
+  border-radius: 10px; }
+
+.ubicacionP {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold; }
+
+
+
+
+
+
+footer {
+  margin-top: 50px !important;
+  padding-top: 70px;
+  border-top: solid black;
+  background-image: url(../assets/img/metal.png);
+  background-position: 18%; }
+
+.logoFoot {
+  width: 30%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; }
+
+.textoFoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  color: #E97F08;
+  padding-bottom: 30px;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.8px black; }
+
+.Ferre {
+  color: white;
+  font-size: 21px;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.8px black; }
+
+.footerLogos {
+  display: flex;
+  justify-content: center;
+  padding: 30px 50px 100px 80px; }
+
+.red1 {
+  width: 50px;
+  margin: 5px 5px; }
+
+.red2 {
+  width: 50px;
+  margin: 5px 5px; }
+
+.red3 {
+  width: 50px;
+  margin: 5px 5px; }
+
+.design {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+  color: #E97F08;
+  text-align: center;
+  font-size: 12px; }
+
+
+
+/* vista mobile */
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 200px;
+    height: auto; }
+  #rowBanner {
+    display: flex;
+    flex-direction: column; }
+  #rowBanner .img-Fluid {
+    width: 50%; }
+  #bremen {
+    margin-left: 10px; }
+  .logoGrande {
+    width: 100%; }
+  .img-Fluid {
+    width: 100%; }
+  
+  /* FOOTER */
+  footer {
+    margin-top: 50px !important;
+    padding-top: 30px;
+    background: linear-gradient(to bottom, black, #343434);
+    background-image: url(../assets/img/metal.png);
+    background-position: 13%; }
+  .textoFoot {
+    padding-bottom: 5px; }
+  .logoFoot {
+    width: 30%; }
+  .footerLogos {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .footerLogos {
+    width: 30px;
+    margin: 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 30px 0; } }
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  #rowBanner .img-Fluid {
+    width: 30%; }
+  .rowBannerMarcas {
+    background-color: black;
+    flex-wrap: wrap; } }
